@@ -1,0 +1,87 @@
+/* Couleurs */
+:root {
+  --slate-900: #1f314f;
+  --slate-500: #68778d;
+  --slate-300: #d5e1ef;
+  --white: #ffffff;
+}
+
+/* Typographie */
+.text-preset-1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 120%;
+  letter-spacing: 0px;
+}
+
+.text-preset-2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+}
+
+/* Espacements */
+.spacing-500 {
+  width: 40px;
+  height: 40px;
+  background-color: var(--slate-300);
+}
+
+.spacing-300 {
+  width: 24px;
+  height: 24px;
+  background-color: var(--slate-300);
+}
+
+.spacing-200 {
+  width: 16px;
+  height: 16px;
+  background-color: var(--slate-300);
+}
+
+/* Perso */
+html,
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--slate-300);
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+/* Container (la carte) */
+.container {
+  background: var(--white);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 320px;
+}
+
+/* Image QR Code */
+.qr-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Titre */
+.text-preset-1 {
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--slate-900);
+  margin: 20px 0 10px;
+}
+
+/* Paragraphe */
+.text-preset-2 {
+  font-size: 15px;
+  font-weight: normal;
+  color: var(--slate-500);
+  margin-bottom: 10px;
+}
